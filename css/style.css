@@ -153,10 +153,9 @@
        height: 40px;
     }
 }
-
-  .header .main-nav{
-    display: flex;
-
+    .header .main-nav > li {
+        display: flex;
+    }
   }
   @media (max-width: 767px){
     .header .main-nav{
